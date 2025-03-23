@@ -90,8 +90,8 @@ function createMarkUp(content, linkContainer) {
 
 createMarkUp(images, gallery);
 
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
 
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
