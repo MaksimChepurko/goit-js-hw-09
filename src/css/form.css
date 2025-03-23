@@ -1,0 +1,64 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    gap: 16px;
+    margin: 30px auto;
+    width: 408px;
+  }
+  .feedback-form label {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  .feedback-form label input,
+  .feedback-form label textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    transition: border-color ease-in-out 250ms;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding: 8px 16px;
+  }
+  .feedback-form label input {
+    height: 40px;
+  }
+  .feedback-form label textarea {
+    height: 80px;
+    resize: none;
+  }
+  .feedback-form label input:hover,
+  .feedback-form label input:focus,
+  .feedback-form label textarea:hover,
+  .feedback-form label textarea:focus {
+    border-color: #000;
+  }
+  .feedback-form button {
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4e75ff;
+    padding: 8px 16px;
+    border-style: none;
+    border-radius: 8px;
+    transition: background-color ease-in-out 250ms;
+  }
+  .feedback-form button:hover,
+  .feedback-form button:focus {
+    background-color: #6c8cff;
+  }
