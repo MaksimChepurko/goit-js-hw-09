@@ -1,3 +1,6 @@
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const images = [
   {
     preview:
@@ -87,12 +90,7 @@ function createMarkUp(content, linkContainer) {
   });
   linkContainer.append(...markUp);
 }
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
 createMarkUp(images, gallery);
-(function () {
-  var $gallery = new SimpleLightbox('.gallery a', {});
-})();
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
